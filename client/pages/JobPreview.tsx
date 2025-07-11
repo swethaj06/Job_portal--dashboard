@@ -96,35 +96,33 @@ export default function JobPreview() {
 
               {/* Preferred Language */}
               <div>
-                <h3 className="text-sm font-medium text-slate-900 mb-3">
+                <h3 className="text-sm font-medium text-gray-900 mb-3">
                   Preferred Language
                 </h3>
-                <p className="text-sm text-slate-700">English</p>
+                <p className="text-sm text-gray-700">English</p>
               </div>
 
               {/* Type */}
               <div>
-                <h3 className="text-sm font-medium text-slate-900 mb-3">
-                  Type
-                </h3>
-                <p className="text-sm text-slate-700">Full time</p>
+                <h3 className="text-sm font-medium text-gray-900 mb-3">Type</h3>
+                <p className="text-sm text-gray-700">Full time</p>
               </div>
 
               {/* Years of Experience */}
               <div>
-                <h3 className="text-sm font-medium text-slate-900 mb-3">
+                <h3 className="text-sm font-medium text-gray-900 mb-3">
                   Years of Experience
                 </h3>
-                <p className="text-sm text-slate-700">3+ Years of Experience</p>
+                <p className="text-sm text-gray-700">3+ Years of Experience</p>
               </div>
             </div>
 
             {/* About the Job */}
             <div className="mb-8">
-              <h3 className="text-sm font-medium text-slate-900 mb-3">
+              <h3 className="text-sm font-medium text-gray-900 mb-3">
                 About the job
               </h3>
-              <ol className="list-decimal list-inside space-y-1 text-sm text-slate-700">
+              <ol className="list-decimal list-inside space-y-1 text-sm text-gray-700">
                 <li>Handle the UI/UX research design</li>
                 <li>
                   Work on researching on latest web applications designs &
@@ -140,10 +138,10 @@ export default function JobPreview() {
 
             {/* Benefits */}
             <div className="mb-8">
-              <h3 className="text-sm font-medium text-slate-900 mb-3">
+              <h3 className="text-sm font-medium text-gray-900 mb-3">
                 Benefits:
               </h3>
-              <ul className="list-disc list-inside space-y-1 text-sm text-slate-700 ml-4">
+              <ul className="list-disc list-inside space-y-1 text-sm text-gray-700 ml-4">
                 <li>Health Insurance</li>
                 <li>Provident Fund</li>
               </ul>
@@ -151,20 +149,20 @@ export default function JobPreview() {
 
             {/* Schedule */}
             <div className="mb-8">
-              <h3 className="text-sm font-medium text-slate-900 mb-3">
+              <h3 className="text-sm font-medium text-gray-900 mb-3">
                 Schedule:
               </h3>
-              <ul className="list-disc list-inside space-y-1 text-sm text-slate-700 ml-4">
+              <ul className="list-disc list-inside space-y-1 text-sm text-gray-700 ml-4">
                 <li>Day shift</li>
               </ul>
             </div>
 
             {/* Supplemental pay types */}
             <div className="mb-8">
-              <h3 className="text-sm font-medium text-slate-900 mb-3">
+              <h3 className="text-sm font-medium text-gray-900 mb-3">
                 Supplemental pay types:
               </h3>
-              <ul className="list-disc list-inside space-y-1 text-sm text-slate-700 ml-4">
+              <ul className="list-disc list-inside space-y-1 text-sm text-gray-700 ml-4">
                 <li>Performance bonus</li>
                 <li>Yearly bonus</li>
               </ul>
@@ -172,46 +170,46 @@ export default function JobPreview() {
 
             {/* Work Location */}
             <div className="mb-8">
-              <h3 className="text-sm font-medium text-slate-900 mb-3">
+              <h3 className="text-sm font-medium text-gray-900 mb-3">
                 Work Location: in person
               </h3>
             </div>
 
             {/* Company Info */}
-            <div className="border-t border-slate-200 pt-6">
+            <div className="border-t border-gray-200 pt-6">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-blue-600 rounded flex items-center justify-center">
                   <span className="text-white font-bold text-lg">A</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-medium text-slate-900 mb-4">Atlassian</h3>
+                  <h3 className="font-medium text-gray-900 mb-4">Atlassian</h3>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                     <div>
-                      <span className="text-slate-500">Company size</span>
-                      <p className="text-slate-700">1k - 5k Employees</p>
+                      <span className="text-gray-500">Company size</span>
+                      <p className="text-gray-700">1k - 5k Employees</p>
                     </div>
                     <div>
-                      <span className="text-slate-500">Type</span>
-                      <p className="text-slate-700">Private</p>
+                      <span className="text-gray-500">Type</span>
+                      <p className="text-gray-700">Private</p>
                     </div>
                     <div>
-                      <span className="text-slate-500">Sector</span>
-                      <p className="text-slate-700">
+                      <span className="text-gray-500">Sector</span>
+                      <p className="text-gray-700">
                         Information Technology, Infrastructure
                       </p>
                     </div>
                     <div>
-                      <span className="text-slate-500">Funding</span>
-                      <p className="text-slate-700">Bootstrapped</p>
+                      <span className="text-gray-500">Funding</span>
+                      <p className="text-gray-700">Bootstrapped</p>
                     </div>
                     <div>
-                      <span className="text-slate-500">Founded in</span>
-                      <p className="text-slate-700">2019</p>
+                      <span className="text-gray-500">Founded in</span>
+                      <p className="text-gray-700">2019</p>
                     </div>
                     <div>
-                      <span className="text-slate-500">Founded by</span>
-                      <p className="text-slate-700">
+                      <span className="text-gray-500">Founded by</span>
+                      <p className="text-gray-700">
                         Scott Farquhar, Mike Cannon-Brookes
                       </p>
                     </div>
@@ -242,36 +240,36 @@ export default function JobPreview() {
 
             {/* Statistics */}
             <div className="space-y-4">
-              <div className="flex items-center justify-between p-3 hover:bg-slate-50 rounded-lg">
+              <div className="flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg">
                 <div className="flex items-center space-x-3">
-                  <Users className="w-5 h-5 text-slate-400" />
-                  <span className="text-sm text-slate-700">Applicants</span>
+                  <Users className="w-5 h-5 text-gray-400" />
+                  <span className="text-sm text-gray-700">Applicants</span>
                 </div>
-                <span className="font-semibold text-slate-900">400</span>
+                <span className="font-semibold text-gray-900">400</span>
               </div>
 
-              <div className="flex items-center justify-between p-3 hover:bg-slate-50 rounded-lg">
+              <div className="flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg">
                 <div className="flex items-center space-x-3">
-                  <Building2 className="w-5 h-5 text-slate-400" />
-                  <span className="text-sm text-slate-700">Matches</span>
+                  <Building2 className="w-5 h-5 text-gray-400" />
+                  <span className="text-sm text-gray-700">Matches</span>
                 </div>
-                <span className="font-semibold text-slate-900">100</span>
+                <span className="font-semibold text-gray-900">100</span>
               </div>
 
-              <div className="flex items-center justify-between p-3 hover:bg-slate-50 rounded-lg">
+              <div className="flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg">
                 <div className="flex items-center space-x-3">
-                  <MessageCircle className="w-5 h-5 text-slate-400" />
-                  <span className="text-sm text-slate-700">Messages</span>
+                  <MessageCircle className="w-5 h-5 text-gray-400" />
+                  <span className="text-sm text-gray-700">Messages</span>
                 </div>
-                <span className="font-semibold text-slate-900">147</span>
+                <span className="font-semibold text-gray-900">147</span>
               </div>
 
-              <div className="flex items-center justify-between p-3 hover:bg-slate-50 rounded-lg">
+              <div className="flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg">
                 <div className="flex items-center space-x-3">
-                  <Eye className="w-5 h-5 text-slate-400" />
-                  <span className="text-sm text-slate-700">Views</span>
+                  <Eye className="w-5 h-5 text-gray-400" />
+                  <span className="text-sm text-gray-700">Views</span>
                 </div>
-                <span className="font-semibold text-slate-900">800</span>
+                <span className="font-semibold text-gray-900">800</span>
               </div>
             </div>
           </Card>
