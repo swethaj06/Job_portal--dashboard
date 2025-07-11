@@ -276,7 +276,7 @@ export default function Index() {
         </div>
 
         {/* Right Sidebar */}
-        <div className="w-80 p-6">
+        <div className="w-full lg:w-80 p-4 lg:p-6">
           <Card className="p-6">
             {/* Action Buttons */}
             <div className="flex space-x-3 mb-6">
