@@ -18,15 +18,15 @@ export default function Index() {
     <div className="min-h-screen bg-slate-50">
       {/* Header Navigation */}
       <header className="bg-white border-b border-slate-200">
-        <div className="flex items-center justify-between px-6 py-4">
+        <div className="flex items-center justify-between px-4 lg:px-6 py-4">
           {/* Left - Logo */}
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center space-x-4 lg:space-x-8">
             <div className="bg-slate-100 px-3 py-2 rounded text-sm font-medium text-slate-600">
               Logo
             </div>
 
             {/* Main Navigation */}
-            <nav className="flex items-center space-x-6">
+            <nav className="hidden md:flex items-center space-x-6">
               <Button
                 variant="ghost"
                 className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full text-sm font-medium"
