@@ -122,7 +122,8 @@ export default function Index() {
                     <input
                       type="checkbox"
                       checked
-                      className="rounded border-slate-300"
+                      readOnly
+                      className="w-4 h-4 rounded border-slate-300 text-slate-900 focus:ring-slate-500"
                     />
                     <span className="text-sm text-slate-700">Figma</span>
                   </label>
@@ -130,7 +131,8 @@ export default function Index() {
                     <input
                       type="checkbox"
                       checked
-                      className="rounded border-slate-300 bg-slate-900"
+                      readOnly
+                      className="w-4 h-4 rounded border-slate-300 text-slate-900 focus:ring-slate-500"
                     />
                     <span className="text-sm text-slate-700">
                       Adobe Illustrator
@@ -140,7 +142,8 @@ export default function Index() {
                     <input
                       type="checkbox"
                       checked
-                      className="rounded border-slate-300 bg-slate-900"
+                      readOnly
+                      className="w-4 h-4 rounded border-slate-300 text-slate-900 focus:ring-slate-500"
                     />
                     <span className="text-sm text-slate-700">Auto-UI</span>
                   </label>
