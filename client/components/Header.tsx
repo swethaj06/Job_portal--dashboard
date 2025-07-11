@@ -57,8 +57,8 @@ export function Header() {
             to="/job-preview"
             className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
               location.pathname === "/job-preview"
-                ? "text-slate-900 border-slate-900"
-                : "text-slate-500 hover:text-slate-700 border-transparent"
+                ? "text-gray-900 border-gray-900"
+                : "text-gray-500 hover:text-gray-700 border-transparent"
             }`}
           >
             Job preview
@@ -67,8 +67,8 @@ export function Header() {
             to="/applicants"
             className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
               location.pathname === "/applicants"
-                ? "text-slate-900 border-slate-900"
-                : "text-slate-500 hover:text-slate-700 border-transparent"
+                ? "text-gray-900 border-gray-900"
+                : "text-gray-500 hover:text-gray-700 border-transparent"
             }`}
           >
             Applicants
@@ -77,8 +77,8 @@ export function Header() {
             to="/match"
             className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
               location.pathname === "/match"
-                ? "text-slate-900 border-slate-900"
-                : "text-slate-500 hover:text-slate-700 border-transparent"
+                ? "text-gray-900 border-gray-900"
+                : "text-gray-500 hover:text-gray-700 border-transparent"
             }`}
           >
             Match
@@ -87,8 +87,8 @@ export function Header() {
             to="/messages"
             className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
               location.pathname === "/messages"
-                ? "text-slate-900 border-slate-900"
-                : "text-slate-500 hover:text-slate-700 border-transparent"
+                ? "text-gray-900 border-gray-900"
+                : "text-gray-500 hover:text-gray-700 border-transparent"
             }`}
           >
             Messages
