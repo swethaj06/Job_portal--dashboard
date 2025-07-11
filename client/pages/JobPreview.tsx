@@ -26,11 +26,11 @@ export default function JobPreview() {
             {/* Job Title & Basic Info */}
             <div className="mb-6">
               <div className="flex items-center justify-between mb-4">
-                <h1 className="text-2xl font-semibold text-slate-900">
+                <h1 className="text-2xl font-semibold text-gray-900">
                   Senior Product Designer
                 </h1>
                 <div className="flex items-center space-x-2">
-                  <span className="text-sm text-slate-500">
+                  <span className="text-sm text-gray-500">
                     Posted 2 days ago
                   </span>
                   <Badge
