@@ -6,12 +6,12 @@ export function Header() {
   const location = useLocation();
 
   return (
-    <header className="bg-white border-b border-slate-200">
+    <header className="bg-white border-b border-gray-200">
       <div className="flex items-center justify-between px-4 lg:px-6 py-4">
         {/* Left - Logo */}
         <div className="flex items-center space-x-4 lg:space-x-8">
           <Link to="/job-preview">
-            <div className="bg-slate-100 px-3 py-2 rounded text-sm font-medium text-slate-600 hover:bg-slate-200 transition-colors">
+            <div className="bg-gray-100 px-3 py-2 rounded text-sm font-medium text-gray-600 hover:bg-gray-200 transition-colors">
               Logo
             </div>
           </Link>
@@ -27,12 +27,12 @@ export function Header() {
             </Button>
             <Link
               to="/messages"
-              className="flex items-center space-x-2 text-slate-500 hover:text-slate-700 text-sm transition-colors"
+              className="flex items-center space-x-2 text-gray-500 hover:text-gray-700 text-sm transition-colors"
             >
               <MessageCircle className="w-4 h-4" />
               <span>Messages</span>
             </Link>
-            <button className="flex items-center space-x-2 text-slate-500 hover:text-slate-700 text-sm">
+            <button className="flex items-center space-x-2 text-gray-500 hover:text-gray-700 text-sm">
               <DollarSign className="w-4 h-4" />
               <span>Payments</span>
             </button>
@@ -41,8 +41,8 @@ export function Header() {
 
         {/* Right - Notifications & Profile */}
         <div className="flex items-center space-x-4">
-          <button className="p-2 hover:bg-slate-100 rounded-full">
-            <Bell className="w-5 h-5 text-slate-600" />
+          <button className="p-2 hover:bg-gray-100 rounded-full">
+            <Bell className="w-5 h-5 text-gray-600" />
           </button>
           <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-medium">
             A
@@ -51,7 +51,7 @@ export function Header() {
       </div>
 
       {/* Sub Navigation */}
-      <div className="border-t border-slate-200">
+      <div className="border-t border-gray-200">
         <nav className="flex px-4 lg:px-6">
           <Link
             to="/job-preview"
