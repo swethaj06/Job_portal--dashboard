@@ -42,7 +42,7 @@ export default function JobPreview() {
                 </div>
               </div>
 
-              <div className="flex items-center space-x-6 text-slate-600">
+              <div className="flex items-center space-x-6 text-gray-600">
                 <div className="flex items-center space-x-1">
                   <MapPin className="w-4 h-4" />
                   <span className="text-sm">Delaware, USA</span>
