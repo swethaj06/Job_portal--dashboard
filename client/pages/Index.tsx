@@ -75,9 +75,9 @@ export default function Index() {
       </header>
 
       {/* Main Content */}
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row">
         {/* Left Content Area */}
-        <div className="flex-1 p-6">
+        <div className="flex-1 p-4 lg:p-6">
           <Card className="p-6">
             {/* Job Title & Basic Info */}
             <div className="mb-6">
