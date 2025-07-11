@@ -58,7 +58,7 @@ export default function JobPreview() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
               {/* Skills Required */}
               <div>
-                <h3 className="text-sm font-medium text-slate-900 mb-3">
+                <h3 className="text-sm font-medium text-gray-900 mb-3">
                   Skills Required
                 </h3>
                 <div className="space-y-2">
@@ -67,18 +67,18 @@ export default function JobPreview() {
                       type="checkbox"
                       checked
                       readOnly
-                      className="w-4 h-4 rounded border-slate-300 text-slate-900 focus:ring-slate-500"
+                      className="w-4 h-4 rounded border-gray-300 text-gray-900 focus:ring-gray-500"
                     />
-                    <span className="text-sm text-slate-700">Figma</span>
+                    <span className="text-sm text-gray-700">Figma</span>
                   </label>
                   <label className="flex items-center space-x-2">
                     <input
                       type="checkbox"
                       checked
                       readOnly
-                      className="w-4 h-4 rounded border-slate-300 text-slate-900 focus:ring-slate-500"
+                      className="w-4 h-4 rounded border-gray-300 text-gray-900 focus:ring-gray-500"
                     />
-                    <span className="text-sm text-slate-700">
+                    <span className="text-sm text-gray-700">
                       Adobe Illustrator
                     </span>
                   </label>
@@ -87,9 +87,9 @@ export default function JobPreview() {
                       type="checkbox"
                       checked
                       readOnly
-                      className="w-4 h-4 rounded border-slate-300 text-slate-900 focus:ring-slate-500"
+                      className="w-4 h-4 rounded border-gray-300 text-gray-900 focus:ring-gray-500"
                     />
-                    <span className="text-sm text-slate-700">Auto-UI</span>
+                    <span className="text-sm text-gray-700">Auto-UI</span>
                   </label>
                 </div>
               </div>
