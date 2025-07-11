@@ -15,7 +15,7 @@ import { Header } from "../components/Header";
 
 export default function JobPreview() {
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-gray-50">
       <Header />
 
       {/* Main Content */}
