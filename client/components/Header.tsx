@@ -1,4 +1,4 @@
-import { Bell, MessageCircle, DollarSign } from "lucide-react";
+import { Bell, MessageCircle, DollarSign, Briefcase, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
 
@@ -6,94 +6,100 @@ export function Header() {
   const location = useLocation();
 
   return (
-    <header className="bg-white border-b border-gray-200">
-      <div className="flex items-center justify-between px-4 lg:px-6 py-4">
+    <header className="bg-white shadow-sm w-full">
+      <div className="w-full flex items-center justify-between px-6 py-4">
         {/* Left - Logo */}
-        <div className="flex items-center space-x-4 lg:space-x-8">
-          <Link to="/job-preview">
-            <div className="bg-gray-100 px-3 py-2 rounded text-sm font-medium text-gray-600 hover:bg-gray-200 transition-colors">
-              Logo
-            </div>
-          </Link>
+        <Link to="/job-preview">
+          <div className="bg-orange-100 px-4 py-2 rounded-lg text-sm font-medium text-orange-600 hover:bg-orange-200 transition-colors">
+            Logo
+          </div>
+        </Link>
 
-          {/* Main Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
-            <Button
-              variant="ghost"
-              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full text-sm font-medium"
-              asChild
-            >
-              <Link to="/job-preview">Jobs</Link>
-            </Button>
-            <Link
-              to="/messages"
-              className="flex items-center space-x-2 text-gray-500 hover:text-gray-700 text-sm transition-colors"
-            >
-              <MessageCircle className="w-4 h-4" />
-              <span>Messages</span>
+        {/* Center - Main Navigation */}
+        <nav className="flex items-center bg-gray-50 rounded-full p-1 border-2 border-white shadow-lg">
+          <Button
+            variant="ghost"
+            className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center space-x-2 shadow-sm border border-white/20"
+            asChild
+          >
+            <Link to="/job-preview">
+              <Briefcase className="w-4 h-4" />
+              <span>Jobs</span>
             </Link>
-            <button className="flex items-center space-x-2 text-gray-500 hover:text-gray-700 text-sm">
-              <DollarSign className="w-4 h-4" />
-              <span>Payments</span>
-            </button>
-          </nav>
-        </div>
+          </Button>
+          <Link
+            to="/messages"
+            className="flex items-center space-x-2 text-gray-500 hover:text-gray-700 text-sm px-4 py-2 rounded-full transition-colors hover:bg-white hover:shadow-sm"
+          >
+            <MessageCircle className="w-4 h-4" />
+            <span>Messages</span>
+          </Link>
+          <button className="flex items-center space-x-2 text-gray-500 hover:text-gray-700 text-sm px-4 py-2 rounded-full transition-colors hover:bg-white hover:shadow-sm">
+            <DollarSign className="w-4 h-4" />
+            <span>Payments</span>
+          </button>
+        </nav>
 
         {/* Right - Notifications & Profile */}
-        <div className="flex items-center space-x-4">
-          <button className="p-2 hover:bg-gray-100 rounded-full">
+        <div className="flex items-center space-x-3">
+          <button className="p-2 hover:bg-gray-100 rounded-full transition-colors">
             <Bell className="w-5 h-5 text-gray-600" />
           </button>
-          <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-medium">
-            A
+          <div className="flex items-center space-x-2 cursor-pointer hover:bg-gray-50 rounded-full px-2 py-1 transition-colors">
+            <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-medium">
+              𐒰
+            </div>
+            <ChevronDown className="w-4 h-4 text-gray-400" />
           </div>
         </div>
       </div>
 
       {/* Sub Navigation */}
-      <div className="border-t border-gray-200">
-        <nav className="flex px-4 lg:px-6">
-          <Link
-            to="/job-preview"
-            className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
-              location.pathname === "/job-preview"
-                ? "text-gray-900 border-gray-900"
-                : "text-gray-500 hover:text-gray-700 border-transparent"
-            }`}
-          >
-            Job preview
-          </Link>
-          <Link
-            to="/applicants"
-            className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
-              location.pathname === "/applicants"
-                ? "text-gray-900 border-gray-900"
-                : "text-gray-500 hover:text-gray-700 border-transparent"
-            }`}
-          >
-            Applicants
-          </Link>
-          <Link
-            to="/match"
-            className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
-              location.pathname === "/match"
-                ? "text-gray-900 border-gray-900"
-                : "text-gray-500 hover:text-gray-700 border-transparent"
-            }`}
-          >
-            Match
-          </Link>
-          <Link
-            to="/messages"
-            className={`px-4 py-3 text-sm font-medium border-b-2 transition-colors ${
-              location.pathname === "/messages"
-                ? "text-gray-900 border-gray-900"
-                : "text-gray-500 hover:text-gray-700 border-transparent"
-            }`}
-          >
-            Messages
-          </Link>
-        </nav>
+      <div className="bg-gray-50 w-full">
+        <div className="w-full">
+          <nav className="flex px-6 space-x-8">
+            <Link
+              to="/job-preview"
+              className={`py-4 text-sm font-medium border-b-2 transition-colors ${
+                location.pathname === "/job-preview"
+                  ? "text-orange-500 border-orange-500"
+                  : "text-gray-600 hover:text-gray-800 border-transparent"
+              }`}
+            >
+              Job preview
+            </Link>
+            <Link
+              to="/applicants"
+              className={`py-4 text-sm font-medium border-b-2 transition-colors ${
+                location.pathname === "/applicants"
+                  ? "text-orange-500 border-orange-500"
+                  : "text-gray-600 hover:text-gray-800 border-transparent"
+              }`}
+            >
+              Applicants
+            </Link>
+            <Link
+              to="/match"
+              className={`py-4 text-sm font-medium border-b-2 transition-colors ${
+                location.pathname === "/match"
+                  ? "text-orange-500 border-orange-500"
+                  : "text-gray-600 hover:text-gray-800 border-transparent"
+              }`}
+            >
+              Match
+            </Link>
+            <Link
+              to="/messages"
+              className={`py-4 text-sm font-medium border-b-2 transition-colors ${
+                location.pathname === "/messages"
+                  ? "text-orange-500 border-orange-500"
+                  : "text-gray-600 hover:text-gray-800 border-transparent"
+              }`}
+            >
+              Messages
+            </Link>
+          </nav>
+        </div>
       </div>
     </header>
   );
